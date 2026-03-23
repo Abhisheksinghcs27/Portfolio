@@ -1,7 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import cleveroad from '../assets/images/Cleveroad.jpg';
-import capture from '../assets/images/Capture d\'écran 2025-10-22 182207.png';
 import cv from '../assets/cv.png';
 import acadify from '../assets/acadify.png';
 import ecolux from '../assets/ecolux.png';
