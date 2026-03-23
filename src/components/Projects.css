@@ -47,6 +47,8 @@
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -57,6 +59,9 @@
   width: 100%;
   border-radius: 12px;
   margin-bottom: 15px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
 }
 
 .project-card h3 {
@@ -94,6 +99,8 @@
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
+  margin-top: auto; /* keep buttons visually at the bottom of the card */
 }
 
 .btn {
@@ -119,6 +126,10 @@
   .project {
     margin-top: 90px;
     padding: 0 16px 40px;
+  }
+
+  .project-card img {
+    height: 160px;
   }
 
   .projects-container {
