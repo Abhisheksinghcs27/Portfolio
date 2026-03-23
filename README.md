@@ -1,25 +1,24 @@
-# Abhishek Singh Portfolio
+# Abhishek Singh - Portfolio (React + Vite)
 
-This is my personal portfolio built with **React** and **Vite**.
+This project is a personal portfolio built with React and Vite. It showcases your profile and sections like **Home**, **About**, **Projects**, **Services**, and **Contact**.
 
-## Tech Stack
-- React
-- Vite
-- CSS (component-level styles)
+## Features
+- Responsive section layout with project “cards”
+- External links for each featured project (GitHub + Live Demo)
+- Smooth UI interactions (hover effects and reveal animations)
 
-## Projects
-The `Projects` section showcases featured work with links to GitHub repositories and live demos.
+## Getting Started
+1. Install dependencies:
+   - `npm install`
+2. Run the dev server:
+   - `npm run dev`
+3. Build for production:
+   - `npm run build`
+4. Preview the production build:
+   - `npm run preview`
 
-## Run Locally
-```bash
-npm install
-npm run dev
-```
+## Project Structure
+- `src/components/Projects.jsx` and `src/components/Projects.css` contain the featured projects section and its styling.
 
-Open the URL shown in your terminal (usually `http://localhost:5173`).
-
-## Build
-```bash
-npm run build
-npm run preview
-```
+## Deployment
+You can deploy this app to any static hosting provider that supports Vite builds (for example: Vercel, Netlify, or GitHub Pages).
