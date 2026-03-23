@@ -51,8 +51,8 @@ periods. Real-time dashboards for teachers and administrators.</p>
         <div className="project-card">
           <img src={ecolux} alt="Ecoluxe – Salon Booking Web Application" />
           <h3>Ecoluxe – Salon Booking Web Application</h3>
-          <p>Full-stack salon booking platform for services and appointments with service management APIs, plus
-responsive UI.</p>
+          <p>EcoLux is a full-stack web application designed to modernize salon operations by enabling users to browse services, book appointments, and manage grooming schedules online.
+          <br></br>The platform focuses on eco-friendly beauty services, promoting sustainable and chemical-free products..</p>
           <div className="skills">
             <a href="#">React.js</a>
             <a href="#">Tailwind CSS</a>

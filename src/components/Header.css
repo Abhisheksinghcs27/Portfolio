@@ -7,7 +7,7 @@ header {
 }
 
 .header-list {
-  margin: 10px 12px;
+  margin: 15px 20px;
 }
 
 .div-list {
@@ -20,13 +20,11 @@ header {
 .ul-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 3rem;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 10px 25px;
   border-radius: 25px;
-  justify-content: center;
 }
 
 .ul-list li {
@@ -35,7 +33,6 @@ header {
   gap: 6px;
   border-radius: 25px;
   transition: 0.3s;
-  white-space: nowrap;
 }
 
 .ul-list li a {
@@ -52,15 +49,4 @@ header {
 .ul-list li.active a,
 .ul-list li.active i {
   color: white;
-}
-
-@media (max-width: 600px) {
-  .ul-list {
-    gap: 1rem;
-    padding: 10px 14px;
-  }
-
-  .header-list {
-    margin: 8px 8px;
-  }
 }

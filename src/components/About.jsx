@@ -34,7 +34,7 @@ const About = () => {
           <div className="card">
             <div className="c1">
               <h3><i className="fa-solid fa-code"></i> Languages</h3>
-              <p>Python, JavaScript, TypeScript, HTML5, CSS3</p>
+              <p>Python, JavaScript, TypeScript</p>
             </div>
             <div className="c1">
               <h3><i className="fa-solid fa-graduation-cap"></i> Education</h3>
