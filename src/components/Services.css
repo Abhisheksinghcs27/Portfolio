@@ -1,5 +1,8 @@
 .services{
-    margin: 150px 100px;
+    margin: 150px auto 0;
+    padding: 0 24px 60px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,6 +31,7 @@
   gap: 25px;
   max-width: 1100px;
   margin: auto;
+  width: 100%;
 }
 
 .service-card {
@@ -90,4 +94,10 @@
 @keyframes spin {
   0% { transform: translate(-50%, -50%) rotate(0deg); }
   100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    gap: 18px;
+  }
 }

@@ -25,10 +25,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: screen;
-  min-height: screen;
+  width: 100%;
+  display: block;
+  min-height: 100vh;
 }
 
 h1 {

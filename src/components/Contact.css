@@ -1,5 +1,8 @@
 .contact{
-    margin: 160px 200px;
+    margin: 160px auto 0;
+    padding: 0 24px 60px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,5 +142,16 @@
 @media (max-width: 900px) {
   .contact-content {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .social-links {
+    justify-content: center;
   }
 }
