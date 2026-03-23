@@ -63,6 +63,7 @@ const App = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); // ensure initial reveal without waiting for a scroll event
 
     backToTop.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
