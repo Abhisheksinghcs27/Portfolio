@@ -1,0 +1,169 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1 cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro} % Calibri-like font
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{multicol}
+
+% Custom Colors and Styling
+\definecolor{myblue}{HTML}{2E74B5}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=myblue,
+  urlcolor=myblue
+}
+\titleformat{\section}{\color{myblue}\scshape\large}{}{0em}{}[\titlerule]
+\pagestyle{empty}
+\setlength{\columnsep}{1.2cm}
+\setlist[itemize]{left=1em,label=\textbullet,noitemsep,topsep=2pt}
+
+\begin{document}
+\null
+\vspace*{0.4mm}  % top gap added
+
+% ===== Header =====
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Huge \textbf{Abhishek Singh}} & \\
+  \textbf{MERN Full Stack Developer} & 
+  \begin{tabular}{r}
+    \faPhone\ +91 7566902081 \\
+    \faMapMarker\ Bhopal, Madhya Pradesh \\
+    \faEnvelope\ \href{mailto:singh.abhishek.cs27@gmail.com}{singh.abhishek.cs27@gmail.com}
+  \end{tabular}
+\end{tabular*}
+
+\vspace{2mm}
+
+% ===== Main Two-Column Layout =====
+\begin{minipage}[t]{0.33\textwidth}
+\raggedright
+
+\section*{Links}
+\faLinkedin\ \href{https://www.linkedin.com/in/explore-abhishek-sing/}{LinkedIn} \\
+\faGithub\ \href{https://github.com/Abhisheksinghcs27}{GitHub} \\
+\faGlobe\ \href{src/assets/resume.pdf}{Portfolio}
+
+\section*{Skills}
+\textbf{Programming Languages}\\
+Python, JavaScript, TypeScript
+
+\vspace{1mm}
+\textbf{Frontend Development}\\
+HTML5, CSS3, Tailwind CSS, React.js, Bootstrap
+
+\vspace{1mm}
+\textbf{Backend Development}\\
+Node.js, Express.js, Flask, FastAPI
+
+\vspace{1mm}
+\textbf{Databases}\\
+MongoDB, MySQL
+
+\vspace{1mm}
+\textbf{Tools}\\
+Git, GitHub, Postman, WordPress
+
+\vspace{1mm}
+\textbf{Others}\\
+Figma, Canva, Sketch, Blender, Responsive Design
+
+\vspace{1mm}
+\textbf{Core Concepts}\\
+Data Structures \& Algorithms (DSA), REST APIs, Agentic AI
+
+\section*{Education}
+\textbf{2023 -- 2027} \\
+B.Tech, Sagar Institute of Research and Technology, Bhopal \\
+CGPA: 7.0/10
+
+\vspace{1mm}
+\textbf{2020 -- 2021} \\
+MP Board, Govt. excellence school no.1, Satna, Madhya Pradesh
+
+\vspace{1mm}
+\textbf{2022 -- 2023} \\
+MP Board, Govt. excellence school no.1, Satna, Madhya Pradesh
+
+\section*{Soft Skills}
+Communication, Empathy, Open-Mindedness, Problem-Solving,\\
+Critical Thinking, Collaboration/Teamwork
+
+\section*{Certifications}
+\textbf{Sep 2024 -- Jul 2025} \\
+MERN Full Stack Developer -- Sheryians Coding School, Bhopal
+
+\vspace{1mm}
+\textbf{May 2025 -- Jun 2025} \\
+Python with DSA -- Sagar Institute of Research and Technology, Bhopal
+
+\vspace{1mm}
+\textbf{Mar 2024 -- Jun 2024} \\
+C Language -- Sheryians Coding School, Bhopal
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.63\textwidth}
+\raggedright
+
+\section*{Professional Summary}
+Computer Science Engineering student with experience in Full Stack Development using MongoDB, Express.js, React.js, and Node.js. Proficient in developing secure backend systems, REST APIs, and responsive web applications. Built projects including DBT management platforms, smart education systems, and business web applications. Seeking opportunities to apply software engineering, system design, and problem-solving skills in real-world development environments.
+
+\section*{Experience}
+\textbf{InternPe} \hfill \textbf{Dec 2025 -- Jan 2026} \\
+Python Developer Intern
+\begin{itemize}
+  \item Python programs focusing on core concepts such as data structures, functions, and file handling.
+  \item Built logic-based projects including Snake Game and Connect Four to improve algorithmic thinking.
+  \item Performed debugging and testing to improve application reliability and performance.
+  \item Practiced modular programming and clean code practices during internship tasks.
+\end{itemize}
+
+\vspace{1mm}
+\textbf{Oasis Infobyte} \hfill \textbf{Dec 2023 -- Jan 2024} \\
+Web Developer Intern
+\begin{itemize}
+  \item Designed and produced a responsive landing page using HTML, CSS, and JavaScript.
+  \item Built a temperature converter web application for real-time unit conversion with an interactive UI.
+  \item Formed a personal portfolio website to showcase projects and technical skills.
+  \item Applied responsive design principles to improve accessibility across multiple devices.
+\end{itemize}
+
+
+\section*{Projects}
+
+\textbf{SAMARTH -- Govt Scheme \& DBT Management Platform} \\
+\textit{TypeScript, Node.js, Express.js, MongoDB}
+\begin{itemize}
+  \item Delivered a secure backend for beneficiary verification and scheme eligibility mapping.
+  \item Implemented role-based access control, audit logging, and DBT payment workflows.
+  \item Created API-ready integrations for PFMS, DigiLocker, and Aadhaar services.
+\end{itemize}
+\vspace{2mm}
+
+\textbf{Acadify -- Smart Educational Management Platform} \\
+\textit{React.js, Tailwind CSS, Express.js, MongoDB}
+\begin{itemize}
+  \item Expanded a QR-based attendance system to prevent proxy attendance.
+  \item Integrated AI-powered suggestions for productive use of free periods.
+  \item Built real-time dashboards for teachers and administrators.
+\end{itemize}
+\vspace{2mm}
+
+\textbf{Ecoluxe -- Salon Booking Web Application} \\
+\textit{React.js, Tailwind CSS, Node.js, Express.js, MongoDB}
+\begin{itemize}
+  \item Developed a full-stack booking platform for salon services.
+  \item Implemented appointment scheduling, service management APIs, and responsive UI.
+\end{itemize}
+\vspace{1mm}
+\noindent\color{myblue}\rule{\linewidth}{1pt}
+\vspace{2mm}
+
+\end{minipage}
+
+\end{document}
