@@ -54,6 +54,55 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.home-container,
+.about-container,
+.projects-container,
+.services-container,
+.contact-content {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.active-reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-left,
+.slide-in-right {
+  opacity: 0;
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.slide-in-left {
+  transform: translateX(-25px);
+}
+
+.slide-in-right {
+  transform: translateX(25px);
+}
+
+.contact-content.active-reveal .slide-in-left,
+.contact-content.active-reveal .slide-in-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-container,
+  .about-container,
+  .projects-container,
+  .services-container,
+  .contact-content,
+  .slide-in-left,
+  .slide-in-right {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
